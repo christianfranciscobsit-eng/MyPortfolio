@@ -104,7 +104,7 @@ export default function Hero() {
             View Work <ArrowRight size={20} />
           </a>
           <a href="/images/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: "1rem 2.2rem", fontSize: "1.05rem" }}>
-            Resume <Download size={20} />
+            Resume <Download size={19} />
           </a>
         </div>
       </motion.div>
