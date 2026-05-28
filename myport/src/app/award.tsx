@@ -5,22 +5,22 @@ import { Award as AwardIcon, Star, Trophy } from "lucide-react";
 
 const awards = [
   {
-    title: "Best UX/UI Design 2023",
-    organization: "Web Design Awards",
+    title: "1st Runner Up for Best in Logo",
+    organization: "April 2024 Competition",
     icon: <Trophy size={32} color="var(--accent-primary)" />,
-    description: "Awarded for exceptional user interface design on the E-Commerce Platform project."
+    description: "Achieved 1st Runner Up in a logo design competition for creativity, originality, and visual presentation."
   },
   {
-    title: "Top 100 Developers",
-    organization: "Tech Innovators",
+    title: "Best Programming and Coding Practices",
+    organization: "July 2023 Recognition",
     icon: <Star size={32} color="var(--accent-primary)" />,
-    description: "Recognized among the top 100 influential developers in the region."
+    description: "Recognized for demonstrating excellent programming skills, clean coding standards, and efficient development practices."
   },
   {
-    title: "Hackathon Winner",
-    organization: "Global Tech Summit",
+    title: "Best In Capstone 2026",
+    organization: "ABR Diagnostic System",
     icon: <AwardIcon size={32} color="var(--accent-primary)" />,
-    description: "First place winner for building an innovative AI-driven educational tool."
+    description: "Awarded for developing and presenting the ABR Diagnostic System as one of the outstanding capstone projects in 2026."
   }
 ];
 

@@ -4,23 +4,18 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
-    role: "Senior Frontend Engineer",
-    company: "TechNova Inc.",
-    period: "2022 - Present",
-    description: "Leading the development of the core customer-facing web application. Mentored junior developers and introduced modern CI/CD practices."
+    role: "WEB DEVELOPER (INTERN.)",
+    company: "ABBE TECHNOLOGY SOLUTION INC.",
+    period: "JANUARY 2026 - MAY2026",
+    description: "Assisted in developing and designing responsive websites, maintained and updated website content and features, and collaborated with team members on web development tasks using React, Tailwind CSS, and JavaScript."
   },
   {
-    role: "Full Stack Developer",
-    company: "Digital Creations",
-    period: "2019 - 2022",
-    description: "Developed and maintained multiple client projects ranging from landing pages to complex dashboards using React and Node.js."
+    role: "COMPUTER ASSISTANT",
+    company: "DAC. COMPUTER SHOP",
+    period: "JANUARY 2015 - DECEMBER 2020",
+    description: "Provided technical support and troubleshooting for customers, assisted in computer maintenance and software installation, and handled basic operations such as printing, encoding, and customer service."
   },
-  {
-    role: "Web Developer Intern",
-    company: "Startup Hub",
-    period: "2018 - 2019",
-    description: "Assisted in the creation of responsive web layouts and learned best practices in version control and agile methodologies."
-  }
+  
 ];
 
 export default function Experience() {

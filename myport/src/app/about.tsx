@@ -17,18 +17,18 @@ export default function About() {
           <div className="glass-panel" style={{ padding: "2.5rem" }}>
             <h3 style={{ fontSize: "1.5rem", marginBottom: "1.5rem", color: "var(--text-primary)" }}>My Journey</h3>
             <p style={{ color: "var(--text-secondary)", marginBottom: "1rem" }}>
-              I am a passionate software engineer with a strong focus on modern web technologies. My journey started with a curiosity for how things work on the internet, which quickly turned into a career crafting responsive, performant, and accessible user interfaces.
+              I’m a passionate Graphic and Digital Designer focused on creating modern, visually engaging, and meaningful designs. My journey in design started with a curiosity for creativity and digital art, which eventually grew into a strong passion for branding, UI visuals, social media content, and digital experiences.
             </p>
             <p style={{ color: "var(--text-secondary)" }}>
-              I thrive in environments where I can tackle complex problems and collaborate with cross-functional teams to deliver impactful products. When I am not coding, I am exploring the latest design trends and learning new frameworks.
+              Over the past 2 years, I’ve worked on various creative projects that helped me improve my skills in layout design, visual storytelling, and user-focused design. I enjoy turning ideas into clean and impactful visuals while continuously exploring new trends, tools, and creative techniques to grow as a designer.
             </p>
           </div>
           
           <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
             {[
-              { label: "Experience", value: "5+ Years" },
-              { label: "Projects Completed", value: "40+" },
-              { label: "Clients Worldwide", value: "20+" }
+              { label: "Experience", value: "2+ Years" },
+              { label: "Projects Completed", value: "10+" },
+              { label: "Creative Designs", value: "30+" }
             ].map((stat, i) => (
               <motion.div 
                 key={i}
