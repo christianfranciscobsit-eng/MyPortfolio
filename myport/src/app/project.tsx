@@ -114,7 +114,7 @@ export default function Projects() {
                 </h3>
                 <div style={{ display: "flex", gap: "0.75rem" }}>
                   <a
-                    href={project.github}
+                    href="#"
                     style={{ color: "var(--text-secondary)" }}
                     onMouseEnter={(e) => (e.currentTarget.style.color = "var(--text-primary)")}
                     onMouseLeave={(e) => (e.currentTarget.style.color = "var(--text-secondary)")}
