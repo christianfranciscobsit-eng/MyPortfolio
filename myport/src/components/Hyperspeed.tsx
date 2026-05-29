@@ -107,7 +107,8 @@ class CarLights {
   init() {
     const o=this.options; const curve=new THREE.LineCurve3(new THREE.Vector3(0,0,0),new THREE.Vector3(0,0,-1));
     const geo=new THREE.TubeGeometry(curve,40,1,8,false);
-    const inst=new THREE.InstancedBufferGeometry().copy(geo as unknown as THREE.BufferGeometry) as THREE.InstancedBufferGeometry;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const inst=new THREE.InstancedBufferGeometry().copy(geo as any) as THREE.InstancedBufferGeometry;
     inst.instanceCount=o.lightPairsPerRoadWay*2;
     const laneW=o.roadWidth/o.lanesPerRoad; const aOffset:number[]=[]; const aMetrics:number[]=[]; const aColor:number[]=[];
     const colorArr=this.colors.map(c=>new THREE.Color(c));
@@ -134,7 +135,8 @@ class LightsSticks {
   constructor(w:App,o:HyperspeedOptions){this.webgl=w;this.options=o;}
   init(){
     const o=this.options; const geo=new THREE.PlaneGeometry(1,1);
-    const inst=new THREE.InstancedBufferGeometry().copy(geo as unknown as THREE.BufferGeometry) as THREE.InstancedBufferGeometry;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const inst=new THREE.InstancedBufferGeometry().copy(geo as any) as THREE.InstancedBufferGeometry;
     inst.instanceCount=o.totalSideLightSticks;
     const step=o.length/(o.totalSideLightSticks-1); const aOffset:number[]=[]; const aColor:number[]=[]; const aMetrics:number[]=[];
     const colorArr=[new THREE.Color(o.colors.sticks)];
